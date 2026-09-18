@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+.pnpm-store/
+tmp/
+.env
+.env.*
+!.env.example
+.vercel/
+*.log
+cv-preview.png
