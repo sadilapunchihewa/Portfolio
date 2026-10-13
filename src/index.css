@@ -99,3 +99,12 @@
 .certifications p{position:relative;color:#b5c5d0;font-size:14px;line-height:1.6;margin:0 0 11px;padding-left:17px}
 .certifications p:before{content:'';position:absolute;left:0;top:.65em;width:6px;height:6px;border-radius:50%;background:#76d4ba}
 .certifications p:last-child{margin-bottom:0}
+
+/* Featured AI platforms retain the existing project card design. */
+.project-card.project-primary{border-color:#76c9c7;box-shadow:0 0 0 1px rgba(118,201,199,.12)}
+.project-primary .project-features,.project-card:has(.project-visual.property) .project-features{grid-template-columns:1fr}
+.project-primary .project-info,.project-card:has(.project-visual.property) .project-info{min-width:0}
+.project-links{flex-wrap:wrap}
+.project-links button{display:inline-flex;align-items:center;gap:7px;padding:0;border:0;background:transparent;color:#8295a7;font:700 12px Manrope,sans-serif;cursor:not-allowed}
+.project-link-status{font-size:10px;font-weight:400}
+@media(max-width:600px){.project-primary .project-info h3,.project-card:has(.project-visual.property) .project-info h3{overflow-wrap:anywhere}}
